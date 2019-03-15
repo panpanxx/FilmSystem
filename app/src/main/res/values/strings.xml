@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">drawertest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="goods">卖品套餐</string>
+    <string name="jingdian_taocan">经典套餐</string>
+    <string name="price_jingdian_taocan">¥39</string>
+    <string name="tuodan_taocan">脱单套餐</string>
+    <string name="price_tuodan_taocan">¥29</string>
+    <string name="all">查看全部</string>
+    <string name="mcard">会员卡</string>
+    <string name="type_mcard">至尊卡（全国通用）</string>
+    <string name="price_type_mcard">¥300</string>
+    <string name="shouqi">拼手气</string>
+    <string name="shili">拼实力</string>
+    <string name="hudong">影游互动</string>
+</resources>

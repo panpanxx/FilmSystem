@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="custom">
+            <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/ic_stars_black_24dp"
+                android:title="会员权益" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_monetization_on_black_24dp"
+                android:title="积分商城" />
+        </item>
+    </group>
+    <group>
+        <item android:title="我的">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/ic_movie_filter_black_24dp"
+                    android:title="我的影单" />
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_card_giftcard_black_24dp"
+                    android:title="我的奖品" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_headset_mic_black_24dp"
+            android:title="智能客服" />
+        <item
+            android:id="@+id/suggestion"
+            android:icon="@drawable/ic_sentiment_dissatisfied_black_24dp"
+            android:title="投诉建议" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="设置" />
+    </group>
+</menu>
